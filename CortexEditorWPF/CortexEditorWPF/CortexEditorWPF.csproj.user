@@ -7,7 +7,39 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="View\Console\Console.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Graphics\Scene3D.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ProjectExplorer\ProjectExplorer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Properties\Properties.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SceneHierarchy\SceneHierarchy.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Console\Console.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Graphics\Scene3D.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ProjectExplorer\ProjectExplorer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Properties\Properties.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SceneHierarchy\SceneHierarchy.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

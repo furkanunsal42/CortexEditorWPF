@@ -4,6 +4,66 @@
              xmlns:local="clr-namespace:CortexEditorWPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
+        <ResourceDictionary>
+
+            <Color x:Key="Palate0">#ff1f1f1f</Color>
+            <Color x:Key="Palate1">#ff1f1f1f</Color>
+            <Color x:Key="Palate2">#ff333333</Color>
+            <Color x:Key="Palate3">#ff0e3c68</Color>
+            <Color x:Key="Palate4">#ff0078d4</Color>
+            <Color x:Key="TextColor">#ffffffff</Color>
+
+            <Color x:Key="Palate0_A20">#331f1f1f</Color>
+            <Color x:Key="Palate1_A20">#331f1f1f</Color>
+            <Color x:Key="Palate2_A20">#33333333</Color>
+            <Color x:Key="Palate3_A20">#330e3c68</Color>
+            <Color x:Key="Palate4_A20">#330078d4</Color>
+            <Color x:Key="TextColor_A20">#33ffffff</Color>
+
+            <Color x:Key="Palate0_A50">#81f1f1f0</Color>
+            <Color x:Key="Palate1_A50">#801f1f1f</Color>
+            <Color x:Key="Palate2_A50">#80333333</Color>
+            <Color x:Key="Palate3_A50">#800e3c68</Color>
+            <Color x:Key="Palate4_A50">#800078d4</Color>
+            <Color x:Key="TextColor_A50">#80ffffff</Color>
+
+            <Color x:Key="Palate0_A80">#BF1f1f1f</Color>
+            <Color x:Key="Palate1_A80">#BF1f1f1f</Color>
+            <Color x:Key="Palate2_A80">#BF333333</Color>
+            <Color x:Key="Palate3_A80">#BF0e3c68</Color>
+            <Color x:Key="Palate4_A80">#BF0078d4</Color>
+            <Color x:Key="TextColor_A80">#BFffffff</Color>
+
+            <SolidColorBrush x:Key="Palate0Brush" Color="{DynamicResource Palate0}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate1Brush" Color="{DynamicResource Palate1}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate2Brush" Color="{DynamicResource Palate2}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate3Brush" Color="{DynamicResource Palate3}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate4Brush" Color="{DynamicResource Palate4}"></SolidColorBrush>
+            <SolidColorBrush x:Key="TextColorBrush" Color="{DynamicResource TextColor}"></SolidColorBrush>
+
+            <SolidColorBrush x:Key="Palate0_A20Brush" Color="{DynamicResource Palate0_A20}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate1_A20Brush" Color="{DynamicResource Palate1_A20}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate2_A20Brush" Color="{DynamicResource Palate2_A20}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate3_A20Brush" Color="{DynamicResource Palate3_A20}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate4_A20Brush" Color="{DynamicResource Palate4_A20}"></SolidColorBrush>
+            <SolidColorBrush x:Key="TextColor_A20Brush" Color="{DynamicResource TextColor_A20}"></SolidColorBrush>
+
+            <SolidColorBrush x:Key="Palate0_A50Brush" Color="{DynamicResource Palate0_A50}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate1_A50Brush" Color="{DynamicResource Palate1_A50}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate2_A50Brush" Color="{DynamicResource Palate2_A50}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate3_A50Brush" Color="{DynamicResource Palate3_A50}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate4_A50Brush" Color="{DynamicResource Palate4_A50}"></SolidColorBrush>
+            <SolidColorBrush x:Key="TextColor_A50Brush" Color="{DynamicResource TextColor_A50}"></SolidColorBrush>
+
+            <SolidColorBrush x:Key="Palate0_A80Brush" Color="{DynamicResource Palate0_A80}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate1_A80Brush" Color="{DynamicResource Palate1_A80}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate2_A80Brush" Color="{DynamicResource Palate2_A80}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate3_A80Brush" Color="{DynamicResource Palate3_A80}"></SolidColorBrush>
+            <SolidColorBrush x:Key="Palate4_A80Brush" Color="{DynamicResource Palate4_A80}"></SolidColorBrush>
+            <SolidColorBrush x:Key="TextColor_A80Brush" Color="{DynamicResource TextColor_A80}"></SolidColorBrush>
+
+        </ResourceDictionary>
+        
     </Application.Resources>
 </Application>

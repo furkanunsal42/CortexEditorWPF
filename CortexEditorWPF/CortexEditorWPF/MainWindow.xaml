@@ -3,10 +3,62 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:S3D="clr-namespace:CortexEditorWPF.View.Graphics"
+        xmlns:SH="clr-namespace:CortexEditorWPF.View.SceneHierarchy"
+        xmlns:Prop="clr-namespace:CortexEditorWPF.View.Properties"
+        xmlns:PE="clr-namespace:CortexEditorWPF.View.ProjectExplorer"
+        xmlns:Console="clr-namespace:CortexEditorWPF.View.Console"
         xmlns:local="clr-namespace:CortexEditorWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="GraphicsCortex" Height="1080" Width="1920">
+    <Grid Background="{DynamicResource Palate0Brush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Left Block -->
+
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.RowDefinitions >
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="400"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="400" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <SH:SceneHierarchy Grid.Column="0"></SH:SceneHierarchy>
+                <S3D:Scene3D Grid.Column="1"></S3D:Scene3D>
+            </Grid>
+            
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="6*" />
+                    <ColumnDefinition Width="4*" />
+                </Grid.ColumnDefinitions>
+
+                <PE:ProjectExplorer Grid.Column="0"></PE:ProjectExplorer>
+                <Console:Console Grid.Column="1"></Console:Console>
+
+            </Grid>
+
+        </Grid>
+
+
+        <!-- Properties Block-->
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Prop:Properties></Prop:Properties>
+
+        </Grid>
 
     </Grid>
 </Window>
